@@ -1,0 +1,66 @@
+2024-12-25 08:00:12 alice login - User logged in
+2024-12-25 08:05:30 alice file_access /home/alice/project1/main.py File read
+2024-12-25 08:15:23 alice file_access /home/alice/project1/readme.md File edited
+2024-12-25 08:25:45 alice command git pull Updates pulled from repository
+2024-12-25 08:30:45 alice command ls -la List directory contents
+2024-12-25 08:35:00 alice command python /home/alice/project1/main.py Script executed
+2024-12-25 08:50:00 alice command cp /home/alice/project1/readme.md /home/alice/docs/readme_copy.md File copied
+2024-12-25 09:00:00 bob login - User logged in
+2024-12-25 09:05:15 bob file_access /home/bob/photos/photo1.jpg File viewed
+2024-12-25 09:10:45 bob file_access /home/bob/photos/photo2.jpg File viewed
+2024-12-25 09:15:30 bob command zip -r /home/bob/photos.zip /home/bob/photos Files compressed
+2024-12-25 09:20:10 alice file_access /home/alice/project1/config.yaml File updated
+2024-12-25 09:30:50 alice command pip install -r /home/alice/project1/requirements.txt Dependencies installed
+2024-12-25 09:45:30 bob command rm -rf /home/bob/temp Temporary files deleted
+2024-12-25 10:00:00 alice logout - User logged out
+2024-12-25 10:15:20 carol login - User logged in
+2024-12-25 10:20:00 carol command mkdir /home/carol/workspace New directory created
+2024-12-25 10:30:12 carol file_access /home/carol/workspace/task1.txt File created
+2024-12-25 10:50:10 carol command vim /home/carol/workspace/task1.txt File edited
+2024-12-25 11:00:00 carol file_access /home/carol/workspace/task1.txt File saved
+2024-12-25 11:15:20 alice login - User logged in
+2024-12-25 11:20:45 alice command ps -aux Process status viewed
+2024-12-25 11:30:50 alice file_access /home/alice/logs/app.log Log file viewed
+2024-12-25 11:45:20 alice command tail -n 50 /home/alice/logs/app.log Log tail viewed
+2024-12-25 12:00:00 bob login - User logged in
+2024-12-25 12:10:10 bob command mv /home/bob/photos.zip /home/bob/backup/photos.zip File moved to backup
+2024-12-25 12:20:35 bob file_access /home/bob/backup/photos.zip Backup file accessed
+2024-12-25 12:35:45 carol command rm /home/carol/workspace/task1.txt File deleted
+2024-12-25 12:50:12 carol command ps -aux Process status viewed
+2024-12-25 13:00:00 alice logout - User logged out
+2024-12-25 13:15:30 bob logout - User logged out
+2024-12-25 13:30:00 carol logout - User logged out
+2024-12-25 14:00:00 alice login - User logged in
+2024-12-25 14:05:12 alice command touch /home/alice/newfile.txt File created
+2024-12-25 14:20:15 alice file_access /home/alice/newfile.txt File edited
+2024-12-25 14:30:00 bob login - User logged in
+2024-12-25 14:35:10 bob command cp /home/bob/backup/photos.zip /home/bob/photos_copy.zip File copied
+2024-12-25 14:45:50 bob file_access /home/bob/photos_copy.zip Copied file viewed
+2024-12-25 15:00:00 alice logout - User logged out
+2024-12-25 15:30:00 bob logout - User logged out
+2024-12-25 16:00:00 carol login - User logged in
+2024-12-25 16:10:00 carol command mkdir /home/carol/reports Reports directory created
+2024-12-25 16:20:00 carol file_access /home/carol/reports/report1.docx File created
+2024-12-25 16:30:25 carol command open /home/carol/reports/report1.docx Document opened
+2024-12-25 16:45:50 carol command rm -rf /home/carol/reports Directory removed
+2024-12-25 17:00:00 carol logout - User logged out
+2024-12-25 17:15:20 alice login - User logged in
+2024-12-25 17:25:00 alice file_access /home/alice/logs/app.log Log file accessed
+2024-12-25 17:35:00 alice command cat /home/alice/logs/app.log Display log contents
+2024-12-25 17:45:50 alice logout - User logged out
+2024-12-25 18:00:00 david login - User logged in
+2024-12-25 18:15:00 david command tar -czf /home/david/archive.tar.gz /home/david/documents Files archived
+2024-12-25 18:30:45 david file_access /home/david/archive.tar.gz Archive file accessed
+2024-12-25 19:00:00 emily login - User logged in
+2024-12-25 19:10:30 emily command wget http://example.com/file.zip File downloaded
+2024-12-25 19:25:15 emily file_access /home/emily/file.zip Downloaded file accessed
+2024-12-25 19:40:00 emily command unzip /home/emily/file.zip File unzipped
+2024-12-25 20:00:00 david logout - User logged out
+2024-12-25 20:15:45 emily command rm /home/emily/file.zip File deleted
+2024-12-25 20:30:00 emily logout - User logged out
+2024-12-25 21:00:00 alice login - User logged in
+2024-12-25 21:10:30 alice command du -sh /home/alice Directory size calculated
+2024-12-25 21:20:00 alice logout - User logged out
+2024-12-25 22:00:00 emily login - User logged in
+2024-12-25 22:15:30 emily command curl -O http://example.com/anotherfile.txt File downloaded
+2024-12-25 22:30:00 emily logout - User logged out
